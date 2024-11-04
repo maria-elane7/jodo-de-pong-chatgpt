@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  canvas {
+    border: 2px solid #fff;
+    width: 70vw;
+  } 
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('plano-de-fundo.jpeg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position:relative;
+}
+
+.titulo-jogo{
+  position:absolute;
+  top:30px;
+  font-size:4em;
+  font-variant:small-caps;
+  font-family: "Unlock", serif;
+  color:#C6567C;
+  text-shadow:2px 2px 3px #441d2ad5;
+}
+canvas {
+    border:1px solid black;
+    border-radius:20px;
+}
+#muteButton {
+  position: absolute;
+  top:30px;
+  right:30px;
+  background-color:#C6567C;
+  color:white;
+  font-weight:600;
+  border-radius:15px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+#muteButton:hover{
+  background-color:#a84667;
+  color:rgba(255, 255, 255, 0.87);
+}
